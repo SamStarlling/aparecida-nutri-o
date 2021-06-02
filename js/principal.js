@@ -25,6 +25,6 @@ for (let i = 0; i < pacientes.length; i++) {
     tdImc.textContent = "Altura é inválida!";
   } else {
     let imc = peso / Math.pow(altura, 2);
-    tdImc.textContent = imc;
+    tdImc.textContent = imc.toFixed(2);
   }
 }
